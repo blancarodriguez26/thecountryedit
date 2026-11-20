@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Country Houses",
+        "destination": "#interiors",
+        "description": "Discover beautiful traditional houses, charming cottages and timeless rural architecture.",
+        "image": "https://images.unsplash.com/photo-1570129477492-45c003edd2be"
+    },
+
+    {
+        "title": "Gardens & Flowers",
+        "destination": "#nature",
+        "description": "Explore beautiful gardens, seasonal flowers and the art of creating natural spaces.",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b"
+    },
+
+    {
+        "title": "Equestrian Life",
+        "destination": "#nature",
+        "description": "Discover the beauty of horses and their place in traditional countryside living.",
+        "image": "https://images.pexels.com/photos/1956810/pexels-photo-1956810.jpeg"
+    }
+]

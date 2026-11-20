@@ -1,0 +1,346 @@
+/* GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,slnt,wdth,wght,ROND@1..144,-10..0,25..151,1..1000,0..100&family=Limelight&family=Martel:wght@300;900&display=swap');
+
+
+/* COLOURS */
+
+:root {
+
+    --country-green: #465342;
+    --country-beige: #eee9df;
+    --country-dark: #292d25;
+
+}
+
+
+/* GENERAL */
+
+html {
+
+    font-size: 10px;
+
+}
+
+
+body {
+
+    font-family: "Google Sans Flex", sans-serif;
+
+    background-color: #f8f6f1;
+
+    color: var(--country-dark);
+
+    font-size: 1.4rem;
+
+}
+
+
+h1, h2 {
+
+    font-family: "Limelight", sans-serif;
+
+    font-weight: 400;
+
+}
+
+
+h1 {
+
+    font-size: 4rem;
+
+}
+
+
+h2 {
+
+    font-size: 3rem;
+
+}
+
+
+h3 {
+
+    font-family: "Martel", serif;
+
+    font-size: 2rem;
+
+}
+
+
+/* NAVBAR */
+
+.navbar {
+
+    background-color: var(--country-beige);
+
+    padding: 20px;
+
+}
+
+
+.navbar-brand {
+
+    font-family: "Martel", serif;
+
+    font-size: 1.8rem;
+
+    color: var(--country-green);
+
+}
+
+
+.nav-link {
+
+    text-transform: uppercase;
+
+    font-size: 1.3rem;
+
+    color: var(--country-dark);
+
+}
+
+
+.nav-link:hover {
+
+    color: var(--country-green);
+
+}
+
+
+/* BUTTONS */
+
+.btn {
+
+    font-size: 1.2rem;
+
+    padding: 12px 20px;
+
+    border-radius: 0;
+
+}
+
+
+/* HEADER */
+
+header {
+
+    background-color: var(--country-beige);
+
+    padding: 70px 0;
+
+}
+
+
+header h1 {
+
+    color: var(--country-green);
+
+    line-height: 1.2;
+
+}
+
+
+header p {
+
+    line-height: 1.8;
+
+}
+
+
+header img {
+
+    width: 100%;
+
+    transition: all 0.5s ease;
+
+}
+
+
+header img:hover {
+
+    opacity: 0.8;
+
+}
+
+
+/* SECTIONS */
+
+section {
+
+    padding: 70px 0;
+
+}
+
+
+.section-heading {
+
+    margin-bottom: 40px;
+
+}
+
+
+/* COUNTRY LIVING CARDS */
+
+.card {
+
+    border: none;
+
+    background-color: white;
+
+}
+
+
+.card img {
+
+    width: 100%;
+
+    height: 250px;
+
+    object-fit: cover;
+
+    transition: all 0.5s ease;
+
+}
+
+
+.card img:hover {
+
+    opacity: 0.8;
+
+}
+
+
+.card-body {
+
+    padding: 25px;
+
+}
+
+
+.card-title {
+
+    color: var(--country-green);
+
+    font-family: "Martel", serif;
+
+}
+
+
+/* COUNTRY WAY */
+
+.country-box {
+
+    background-color: var(--country-beige);
+
+    border-color: var(--country-green) !important;
+
+    transition: all 0.5s ease;
+
+}
+
+
+.country-box:hover {
+
+    background-color: var(--country-green);
+
+    color: white;
+
+}
+
+
+.country-box:hover h3 {
+
+    color: white;
+
+}
+
+
+/* NATURE */
+
+#nature img {
+
+    width: 100%;
+
+}
+
+
+/* FOOTER */
+
+footer {
+
+    background-color: var(--country-green);
+
+    color: white;
+
+    padding: 45px 0;
+
+}
+
+
+footer h3 {
+
+    color: white;
+
+}
+
+
+footer a {
+
+    color: white;
+
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+
+}
+
+
+footer a:hover {
+
+    color: var(--country-beige);
+
+}
+
+
+/* MODAL */
+
+.modal-content {
+
+    border-radius: 0;
+
+}
+
+
+.modal-title {
+
+    font-family: "Martel", serif;
+
+    font-size: 2.5rem;
+
+}
+
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    h1 {
+
+        font-size: 3.2rem;
+
+    }
+
+    h2 {
+
+        font-size: 2.5rem;
+
+    }
+
+    header {
+
+        padding: 40px 0;
+
+    }
+
+}
