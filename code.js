@@ -2,7 +2,7 @@
 
 let container = document.querySelector("#country-content");
 
-fetch("js/country.json")
+fetch("country.json")
 
     .then(response => response.json())
 
